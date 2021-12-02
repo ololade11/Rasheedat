@@ -1,0 +1,39 @@
+<!Doctype>
+<html>
+<head></head>
+<body>
+    <h1>Hello World</h1>
+    <p id="solution">Todays Work</p>
+    <p id="Answer"></p>
+    <button type="button" onclick='document.getElementById("solution").style.display="none"'>Disappear</button>
+    <button type="button" onclick='document.getElementById("solution").style.display="block"'>Appear</button>
+    <script>
+        var a=2
+        var b=5
+        var c=2
+        var d=-b
+        var e=3
+        var f=2*a
+        var x=(d+e)/f
+        var y=(d-e)/f
+        document.getElementById("solution").innerHTML="positive answer" +x+" <br> negative answer"+y;
+        var x=20
+            var y=21
+            //var p="This is year"
+            var z= String(x)+String(y)
+            document.getElementById("ola") .innerHTML="This year"+z;
+    </script>
+    <p id="bb">Who is John Doe</p>
+    <button type="button" onclick='document.getElementById("bb").innerHTML= firstname+" " + lastnanme + " is "+ age +" years old , born in 1971. He has a "+  eyecolor +" eyecolor "'>click</button>'
+    <script>
+        var firstname="John"
+        var lastnanme="Doe"
+        var age=50
+        var current="2021"
+        var eyecolor="blue"
+        // document.getElementById("bb").innerHTML=firstname + lastnanme + " is " +  age  + "  years old,  born in 1971 . He has a " + eyecolor +" eyecolor ";
+        document.getElementById("bb").style.fontStyle="italic";
+        document.getElementById("bb").style.color="pink";
+    </script>
+</body>
+</html>
